@@ -1,0 +1,20 @@
+{
+    "extends": "../tsconfig.json",
+    "files": [
+        "index.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "../bundle",
+        "rootDir": "."
+    },
+    "angularCompilerOptions": {
+        "annotateForClosureCompiler": true,
+        "enableResourceInlining": true,
+        "fullTemplateTypeCheck": true,
+        "flatModuleId": "cordelia-angular",
+        "flatModuleOutFile": "cordelia.js",
+        "skipTemplateCodegen": true,
+        "strictInjectionParameters": true,
+        "strictMetadataEmit": true
+    }
+  }
